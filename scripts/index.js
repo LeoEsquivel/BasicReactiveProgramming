@@ -34,7 +34,7 @@ const template = () => {
                 <input class="form-control" type="number" id="capex${index}" aria-label="capex${index}" value="${item.capex}">
             </td>
         </tr>`
-    )
+    ).join("");
     
     return rowTable;
 }
